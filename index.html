@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>c
+    <title>Crop Planner</title>
+    <link rel="stylesheet" href="index.css"
+</head>
+<body>
+
+<div class="container">
+    <h2>Crop Input Planner</h2>
+
+    <label>Select Crop</label>
+    <select id="crop">
+        <option value="maize">Maize</option>
+        <option value="beans">Beans</option>
+    </select>
+
+    <label>Land Size (Acres)</label>
+    <input type="number" id="land" placeholder="Enter acres">
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
